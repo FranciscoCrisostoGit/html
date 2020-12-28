@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina HTML</title>
+</head>
+<body>
+    
+
+    <h1>Estructura HTML</h1>
+
+    <p>forma general en la que se maquetan los sitios web </p>
+
+    <p>lo siguiente es una imagen con el diagrama</p>
+    <img src="imagenes/estructura.PNG" alt="Diagrama de estructura HTML">
+
+
+    <h1>Etiquetas cabecera H son grandes y se hacen pequeñas mientras mas alto el numero</h1>
+    <h2>usualmente van al inicio de un bloque de texto ---->H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6 es la mas pequeña, h7 no existe por ahora</h6>
+
+    <p>Los parrafos van con etiqueta P</p>
+
+    <a href="https://www.w3schools.com">los link van con la etiqueta a</a>
+
+    <p>a las imagenes se les puede determinar ancho y alto (w,h)</p>
+    <img src="imagenes/estructura.PNG" alt="diagrama con otro tamaño" width="104" height="142">
+
+
+
+    <p>los elementos vacios no llevan etiqueta de cierre <br> esto es un parrafo dividido por un br vacio</p>
+   
+    <br>
+
+    <p>tambien se utilizan para dar un salto de linea</p>
+
+    <a href="https://www.w3schools.com/tags/default.asp">link util con toda esta informacion y todas las etiquetas que soporta HTML</a>
+
+    <br>
+
+    <a href="https://www.w3schools.com/tags/ref_byfunc.asp">misma informacion pero ordenada, quizas algo más util</a>
+
+    <p>los atributos de una etiqueta y las refencias requieren "" siempre</p>
+    
+    <br>
+
+    <p>es recomendable modificar los tamaños y las ubicaciones de elementos con hojas de estilo</p>
+    
+    <h1 style="font-size:50px;">Heading 1 modificado sin css</h1>
+   
+    <br>
+
+    <p>
+        de la misma forma, este parrafo
+        tiene mucho espacio en el codigo       pero es ignorado por el navegador
+        y lo pone todo de corrido         
+    </p>
+    
+    <hr>
+
+    <p>la etiqueta hr es una etiqueta vacia sin el cierre, esta indica limites horizontales visibles</p>
+
+    <hr>
+
+    <pre>
+        la etiqueta pre define respetar los espacios escritos
+      
+        este texto no posee etiquetas vacias
+      
+        ni saltos de linea
+      
+        fue escrito con solo una etiqueta pre
+    </pre>
+      
+    <hr>
+
+
+    
+    <h1 style="color:blue;">es posible cambiar la apariencia del texto</h1>
+    <p style="color:red;">utilizando el atributo style</p>
+    
+    <p>
+        
+        esto aplica para los elementos de esquema como body
+
+    </p>
+
+
+    <h1 style="background-color:powderblue;">aqui se cambio el background</h1>
+    <p style="background-color:tomato;">para continuar es necesario utilizar bien el ingles</p>
+        
+
+    <h1 style="font-family:verdana;">tambien se puede cambiar el font de texto</h1>
+    <p style="font-family:courier;">otro ejemplo</p>
+        
+
+    <h1 style="font-size:300%;">y el tamaño como lo hicimos anteriormente</h1>
+    <p style="font-size:160%;">todo esto sin usar hojas de estilo</p>
+
+    <h1 style="text-align:center;">tambien se pueden alinear</h1>
+    <p style="text-align:center;">elementos respecto a la linea</p>
+
+
+    <hr>
+
+
+    <h2>
+        
+        formateo de texto utilizando etiquetas , no atributos
+
+    </h2>
+
+    <p>al igual que en word, es posible subrayar , marcar, tachar elementos</p>
+
+    <p>estos formatos pueden ir directamente <mark>dentro</mark> de una etiqueta</p>
+    <strong> o utilizarse como etiqueta </strong>
+
+
+
+    <p>lo siguiente es una tabla con los formateos de html</p>
+    <img src="imagenes/formateo.png" alt="Tabla de Formatos HTML">
+
+
+    <hr>
+
+    <p>etiqueta q</p>
+
+        <p>WWF's goal is to: 
+        <q>Build a future where people live in harmony with nature.</q>
+    We hope they succeed.</p>
+        
+    <hr>
+
+    <p>etiqueta cite</p>
+    <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+        
+    <hr>
+
+    <p>etiqueta blockquote (puede ir tambien con un link)</p>
+
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+
+
+    <hr>
+
+    <p>etiqueta bdo (voltea el texto segun atributo rtl ltr)</p>  
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>  
+
+
+
+
+    <hr>
+
+    <p>etiqueta address</p>
+
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br> 
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+        </address>
+        
+
+    <hr>
+ 
+    <P>etiqueta abbr (idealmente el atributo tittle debe tener la descripcion de la abrebiatura)</P>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+
+
+    <hr>
+
+
+    <h1>comentarios</h1>
+
+    <!-- esto es un comentario -->
+
+    <p>los comentarios aparecen unicamente en el codigo</p>
+
+    <!-- esto tambien lo es -->
+
+    <!-- esto es un comentario de varias lineas
+    <img border="0" src="pic_trulli.jpg" alt="Trulli">
+    --> 
+
+    <img src="imagenes/comentarios.PNG" alt="comentarios imagen">
+
+
+    <hr>
+
+    <h1>color</h1>
+
+    <p>el atributo color puede ser definido de varias formas</p>
+
+    <a href="https://www.w3schools.com/colors/colors_names.asp"> por nombre (140 nombres de colores)</a>
+    <br>
+    <a href="https://www.w3schools.com/html/html_colors_rgb.asp"> valor rgb</a>
+    <br>
+    <a href="https://www.w3schools.com/html/html_colors_hex.asp"> valor hex</a>
+    <br>
+    <a href="https://www.w3schools.com/html/html_colors_hsl.asp"> valor hsl</a>
+
+
+    <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+    <h1 style="background-color:#ff6347;">#ff6347</h1>
+    <h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+
+
+    <h1 style="border:2px solid Tomato;">Hello World</h1>
+    <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+    <h1 style="border:2px solid Violet;">Hello World</h1>
+
+    <h1 style="color:Tomato;">Hello World</h1>
+    <p style="color:DodgerBlue;">Lorem ipsum...</p>
+    <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+    <h1 style="background-color:DodgerBlue;">Hello World</h1>
+    <p style="background-color:Tomato;">Lorem ipsum...</p>
+
+
+    <hr>
+
+     <!-- quedamos en css -->     
+     <!-- https://www.w3schools.com/html/html_css.asp -->     
+
+
+</body>
+</html>
